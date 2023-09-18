@@ -55,6 +55,7 @@ body {
   display: flex;
   border-radius: 20px;
   background-color: #f0f0f0;
+  text-align: center;
 }
 
 .row-skill {
@@ -80,6 +81,13 @@ body {
 }
 svg {
   color: #222;
+}
+
+.button-project {
+  background-color: #8d8888;
+  color: #222;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .col-footer {
