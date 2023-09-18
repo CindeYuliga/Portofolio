@@ -1,0 +1,109 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar*/
+.navbar-header {
+  background-color: white;
+  border-radius: 20px;
+
+  padding: 15px 10px;
+}
+.nav-link {
+  color: #222;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.item-nav {
+  margin-right: 50px;
+}
+
+body {
+  background-color: #fafafa;
+
+  min-height: 100vh;
+}
+
+.page-caption {
+  margin-top: 20px;
+  border-bottom: 5px solid #222;
+}
+.page-caption h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #222;
+  font-weight: bold;
+}
+
+.content-profil {
+  min-height: 400px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  min-height: 80vh;
+}
+
+.row-profil {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.col-profil {
+  margin-top: 20px;
+}
+
+.col-profil h2 {
+  font-weight: 1000;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: #222;
+}
+span {
+  color: #8a8888;
+}
+
+.col-profil p {
+  color: #222;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.card-photo {
+  border: 5px solid #222;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-profil {
+  width: 300px;
+  height: 500px;
+  padding: 20px 20px 0 20px;
+}
+.col-footer {
+  background-color: white;
+
+  border-radius: 20px;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  position: relative;
+  font-weight: 1000;
+  padding: 20px;
+  color: #222;
+  font-weight: 1000;
+}
+
+@media screen and (max-width: 990px) {
+  .col-profil h2 {
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+  }
+}

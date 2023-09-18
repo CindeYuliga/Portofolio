@@ -1,0 +1,97 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar*/
+.navbar-header {
+  background-color: white;
+  border-radius: 20px;
+
+  padding: 15px 10px;
+}
+.nav-link {
+  color: #222;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.item-nav {
+  margin-right: 50px;
+}
+
+body {
+  background-color: #fafafa;
+
+  min-height: 100vh;
+}
+
+.page-caption {
+  margin-top: 20px;
+  border-bottom: 5px solid #222;
+}
+.page-caption h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #222;
+  font-weight: bold;
+}
+
+.content-contact {
+  min-height: 70vh;
+}
+
+/* section Skill */
+
+.card-border {
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+
+.row-skill {
+  margin-top: 50px;
+  display: flex;
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.col-skill {
+  display: flex;
+  justify-content: center;
+}
+
+.card-title-skill {
+  font-size: 1.3rem;
+  color: #222;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+svg {
+  color: #222;
+}
+
+.col-footer {
+  background-color: white;
+
+  border-radius: 20px;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  position: relative;
+  font-weight: 1000;
+  padding: 20px;
+  color: #222;
+  font-weight: 1000;
+}

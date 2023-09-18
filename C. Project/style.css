@@ -1,0 +1,98 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar*/
+.navbar-header {
+  background-color: white;
+  border-radius: 20px;
+
+  padding: 15px 10px;
+}
+.nav-link {
+  color: #222;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.item-nav {
+  margin-right: 50px;
+}
+
+body {
+  background-color: #fafafa;
+
+  min-height: 100vh;
+}
+
+.page-caption {
+  margin-top: 20px;
+  border-bottom: 5px solid #222;
+}
+.page-caption h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #222;
+  font-weight: bold;
+}
+
+.blurB h1 {
+  color: #222;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.blurB p {
+  color: #222;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.row-project-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row-project-text {
+  margin-top: 25px;
+}
+
+.button-project {
+  background-color: #8d8888;
+  color: #222;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.col-footer {
+  background-color: white;
+
+  border-radius: 20px;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  position: relative;
+  font-weight: 1000;
+  padding: 20px;
+  color: #222;
+  font-weight: 1000;
+}
+
+@media screen and (max-width: 990px) {
+  .col-project-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .blurB h1 {
+    font-size: 1rem;
+  }
+
+  .blurB p {
+    font-size: 1rem;
+  }
+}
